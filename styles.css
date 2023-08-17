@@ -6,7 +6,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("/Users/jenni/OneDrive/Pictures/ToolkitImg/ToolkitTattoo.jpg");
+    background-image: linear-gradient(rgba(103, 120, 129, 0.493), rgba(133, 81, 138, 0.555)), url("ToolkitImg/ToolkitTattoo.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -31,7 +31,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color:bisque;
+    color:rgb(206, 208, 247);
     text-decoration: none;
     font-size: 13px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -40,7 +40,7 @@ nav img{
     content:'';
     width: 0%;
     height: 2px;
-    background: #ab36f4;
+    background: #35385ada;
     display: block;
     margin: auto;
 
@@ -63,20 +63,22 @@ nav img{
     text-align: start;
 }
 .text-box p{
-    margin: 20px 0 40px;
+    margin: 10px 0 40px;
     font-size: 10;
-    color: bisque;
-    line-height: 1.5;
+    color: rgb(8, 6, 4);
+    line-height: 1;
 }
 .Schedulebtn{
     display: inline-block;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    left: 50%;
+    bottom: 20px;
+    color: rgb(20, 0, 19);
     border: 1px solid  olivedrab;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
-    position: relative;
+    background-color: aquamarine;
+    position: fixed;
     cursor: pointer;
 }
 .Schedulebtn:hover{
@@ -96,7 +98,7 @@ nav .fa{
     }
     .nav-links{
         position:absolute;
-        background: #ab36f4;
+        background: #08081dd5;
         height: 100vh;
         width: 200px;
         top: 0;
